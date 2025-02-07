@@ -27,10 +27,10 @@ const CategoryBanner2 = () => {
                 <div className="category-banner-inner">
                   <div className="category-banner-content">
                     <Link href="/contact" className="product-category">
-                      <span>Top Notch </span>Consulting
+                      <span>Computer </span>Softwares
                     </Link>
                     <p className="category-short-desc">
-                      Starts from : <span> &#8358;25,000</span>
+                      Starts from : <span> &#8358;15,000</span>
                     </p>
                     <Link href="/contact" className="border-btn">
                       Shop Now

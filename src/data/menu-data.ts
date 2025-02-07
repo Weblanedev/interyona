@@ -30,7 +30,7 @@ const menu_data: MenuType[] = [
       //   // ],
       // },
       { title: 'Computers', link: '/contact' },
-      { title: 'Consulting', link: '/contact' },
+      { title: 'Software', link: '/contact' },
       { title: 'Accessories', link: '/contact' },
     ],
   },

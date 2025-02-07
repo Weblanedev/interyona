@@ -6,7 +6,7 @@ import 'swiper/css/bundle';
 import banner4 from '../../../public/assets/img/slider-img/banner-01.png';
 import banner5 from '../../../public/assets/img/slider-img/banner-02.png';
 import banner6 from '../../../public/assets/img/slider-img/banner-03.png';
-import bannerBg from '../../../public/assets/img/banner/computer-store.jpg';
+import bannerBg from '../../../public/assets/img/banner/computer_store.jpg';
 import Link from 'next/link';
 const HeroBanner2 = () => {
   const [activeIndex, setActiveIndex] = useState(0); // State to track active slide index
@@ -22,18 +22,18 @@ const HeroBanner2 = () => {
       tagOne: 'Top Brands',
       tagTwo: 'Discover the Best in Computer Hardware',
     },
-    {
-      id: 2,
-      bgImg: banner4,
-      tagOne: 'Expert Tech Support',
-      tagTwo: 'Your Partner in Computer Solutions',
-    },
-    {
-      id: 3,
-      bgImg: banner6,
-      tagOne: 'Custom Solutions',
-      tagTwo: 'Tech Consulting Services for Your Business',
-    },
+    // {
+    //   id: 2,
+    //   bgImg: banner4,
+    //   tagOne: 'Expert Tech Support',
+    //   tagTwo: 'Your Partner in Computer Solutions',
+    // },
+    // {
+    //   id: 3,
+    //   bgImg: banner6,
+    //   tagOne: 'Custom Solutions',
+    //   tagTwo: 'Tech Consulting Services for Your Business',
+    // },
   ];
   return (
     <>
@@ -59,10 +59,10 @@ const HeroBanner2 = () => {
             el: '.slider2-pagination',
             clickable: true,
           }}
-          autoplay={{
-            delay: 5000,
-          }}
-          loop={true}
+          // autoplay={{
+          //   delay: 5000,
+          // }}
+          // loop={true}
         >
           {sliderData?.map((item, index) => {
             return (
